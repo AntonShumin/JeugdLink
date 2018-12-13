@@ -1,0 +1,9 @@
+@media all and (-ms-high-contrast:none) { } /* IE10 */
+_:-ms-fullscreen, :root .class { } /* IE11 */
+[v-cloak] { visibility: hidden; }
+
+// Fixes dropdown menus placed on the right side
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}

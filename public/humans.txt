@@ -1,0 +1,36 @@
+/* TEAM */
+	Head of Webdevelopment: Kim Herman
+	Contact: kim [at] uni-t.be
+	Linkedin: https://www.linkedin.com/pub/kim-herman/3/b91/516
+	From: Mechelen, Belgium
+
+	Development Manager : Thomas Rypens
+	Linkedin: https://www.linkedin.com/in/thomasrypens
+	Twitter: @Rypens
+	From: Muizen, Belgium
+
+	Senior Web Developer: Maarten Troonbeeckx
+	Linkedin: https://www.linkedin.com/in/maartentroonbeeckx
+	From: Mechelen, Belgium
+
+	Front-end developer: Seeger Mattijs
+	Linkedin: https://www.linkedin.com/pub/seeger-mattijs/48/284/745/en
+	Twitter: @SeegerMattijs
+	From: Heist-op-den-berg, Belgium
+
+	Web developer: Sidney Van Peteghem
+	Linkedin: https://www.linkedin.com/in/sidney-van-peteghem-9084b165
+	Twitter: @SidneyVanP
+	From: Zwijndrecht, Belgium
+
+	Web developer: Sam Schuddinck
+
+	Web developer: Enzo Simoen
+
+/* SITE */
+	Last update: 29/06/2015
+	Language: English
+	Doctype: HTML5
+	CMS: October
+	Frameworks: Laravel & Bootstrap
+	IDE: Sublime Text, Transmit, MAMP Pro, Photoshop

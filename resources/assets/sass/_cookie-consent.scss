@@ -1,0 +1,16 @@
+.cookie-consent {
+    background: $navbar-default-bg;
+    border-top: 1px solid $navbar-default-border;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    .cookie-consent__agree {
+        margin-left: 10px;
+        @include media-breakpoint-up(xs) {
+            display: block;
+            margin: 15px auto 0;
+        }
+    }
+}
