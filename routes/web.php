@@ -15,12 +15,16 @@ Route::localizedGroup(function() {
 
     Auth::routes(['verify' => true]);
 
+
     Route::get('/', ['as' => 'welcome', 'uses' => function() {
         return view('welcome');
+
     }]);
 
     Route::group(['middleware' => 'verified'], function() {
         Route::get('/home', 'HomeController@index');
+        Route::get('/','HomeController@test');
+
     });
 
 });
