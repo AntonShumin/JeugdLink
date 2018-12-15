@@ -20,16 +20,17 @@ Route::localizedGroup(function() {
         return view('welcome');
 
     }]);
+    Route::get('/', 'ThreadController@index');
+
+
 
     Route::group(['middleware' => 'verified'], function() {
-        Route::get('/home', 'HomeController@index');
-        Route::get('/','HomeController@test');
 
     });
 
     Route::get('/threads','ThreadController@index');
     Route::get('/threads/{thread}','ThreadController@show');
-    Route::post('/threads/{thread}/replies','RepliesController@store')->name('add_reply');
+    Route::post('/threads/{thread}/replies','ReplyController@store')->name('add_reply');
 
 });
 
