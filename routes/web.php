@@ -27,4 +27,10 @@ Route::localizedGroup(function() {
 
     });
 
+    Route::get('/threads','ThreadController@index');
+    Route::get('/threads/{thread}','ThreadController@show');
+    Route::post('/threads/{thread}/replies','RepliesController@store')->name('add_reply');
+
 });
+
+

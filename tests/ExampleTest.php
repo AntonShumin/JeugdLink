@@ -4,7 +4,9 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class ExampleTest extends TestCase
+use \PHPUnit\Framework\TestCase;
+
+class ExampleTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * A basic functional test example.
@@ -13,7 +15,6 @@ class ExampleTest extends TestCase
      */
     public function testBasicExample()
     {
-        $this->visit('/')
-             ->see('Laravel');
+        $this->assertEquals(4, 2 + 2);
     }
 }

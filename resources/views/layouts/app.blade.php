@@ -9,12 +9,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Laravel')</title>
+    <title>JeugdLink</title>
 
     <!-- Meta -->
     <link rel="author" href="{{ asset('humans.txt') }}">
 
-    <meta name="description" content="@yield('description')">
+    <meta name="description" content="Conversation starter">
     <meta name="url" content="{{ Request::url() }}">
 
     <!-- Open Graph -->
@@ -57,7 +57,7 @@
 
         <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <a class="navbar-brand" href="{{ url('/') }}">Laravel Boilerplate</a>
+                <a class="navbar-brand" href="{{ url('/') }}">JeugdLink</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
