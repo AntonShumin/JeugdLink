@@ -20,13 +20,17 @@ Route::localizedGroup(function() {
         return view('welcome');
 
     }]);
-    Route::get('/', 'ThreadController@index');
+    Route::get('/', 'ThreadController@index')->name('home');
 
 
 
     Route::group(['middleware' => 'verified'], function() {
 
     });
+
+    Route::get('/profiel/{id}','ProfileController@show');
+
+
 
     Route::get('/threads','ThreadController@index');
     Route::get('/threads/{thread}','ThreadController@show');

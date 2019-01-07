@@ -16,7 +16,7 @@
                     <div class="body">{{$thread->body}}</div>
 
                     <h6 class="text-right">
-                        <a href="/profile/{{$thread->owner->id}}">
+                        <a href="/profiel/{{$thread->owner->id}}">
                             {{ $thread->owner->full_name() }}
                         </a>
                         zegt {{$thread->updated_at->diffForHumans() }}

@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-header">
-        <a href="/profile/{{$reply->owner->id}}">
+        <a href="/profiel/{{$reply->owner->id}}">
             {{ $reply->owner->full_name() }}
         </a>
         zegt {{$reply->updated_at->diffForHumans() }}
